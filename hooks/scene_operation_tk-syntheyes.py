@@ -62,7 +62,6 @@ class SceneOperation(Hook):
             # return the current script path
             hlev = get_existing_connection()
             path = hlev.SNIFileName()
-            self.parent.log_debug('Current Scene File Path: {0}'.format(path))
             return path
 
         elif operation == "open":
